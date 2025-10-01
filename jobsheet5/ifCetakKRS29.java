@@ -13,8 +13,9 @@ public class ifCetakKRS29 {
         if (uktLunas) {
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silahkan cetak KRS minta tanda tangan DPA");
+        } else {
+            System.out.println("Registrasi ditolak,Silahkan lunasi UKT terlebih dahulu");
         }
-
         sc.close();
     }
 }
